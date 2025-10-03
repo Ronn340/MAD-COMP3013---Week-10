@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E47DF5032E8F642400EF1211 /* DevLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E47DF5022E8F642400EF1211 /* DevLogo.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A3385E0F2E8402D400C3BC11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		A3385DF82E8402D100C3BC11 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3385E0E2E8402D400C3BC11 /* TestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3385E182E8402D400C3BC11 /* TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47DF5022E8F642400EF1211 /* DevLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DevLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		A3385DEF2E8402D100C3BC11 = {
 			isa = PBXGroup;
 			children = (
+				E47DF5022E8F642400EF1211 /* DevLogo.png */,
 				A3385DFA2E8402D100C3BC11 /* Testing */,
 				A3385E112E8402D400C3BC11 /* TestingTests */,
 				A3385E1B2E8402D400C3BC11 /* TestingUITests */,
@@ -225,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47DF5032E8F642400EF1211 /* DevLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
