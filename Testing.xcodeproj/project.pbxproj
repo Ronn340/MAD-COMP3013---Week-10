@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E47DF5032E8F642400EF1211 /* DevLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E47DF5022E8F642400EF1211 /* DevLogo.png */; };
+		E4CD86FC2E8F8006005F0A7F /* mobileLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CD86FB2E8F8006005F0A7F /* mobileLogo.png */; };
+		E4CD86FE2E8F830E005F0A7F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CD86FD2E8F830E005F0A7F /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,8 @@
 		A3385E0E2E8402D400C3BC11 /* TestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3385E182E8402D400C3BC11 /* TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47DF5022E8F642400EF1211 /* DevLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DevLogo.png; sourceTree = "<group>"; };
+		E4CD86FB2E8F8006005F0A7F /* mobileLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobileLogo.png; sourceTree = "<group>"; };
+		E4CD86FD2E8F830E005F0A7F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -93,6 +97,8 @@
 		A3385DEF2E8402D100C3BC11 = {
 			isa = PBXGroup;
 			children = (
+				E4CD86FD2E8F830E005F0A7F /* star.png */,
+				E4CD86FB2E8F8006005F0A7F /* mobileLogo.png */,
 				E47DF5022E8F642400EF1211 /* DevLogo.png */,
 				A3385DFA2E8402D100C3BC11 /* Testing */,
 				A3385E112E8402D400C3BC11 /* TestingTests */,
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4CD86FC2E8F8006005F0A7F /* mobileLogo.png in Resources */,
 				E47DF5032E8F642400EF1211 /* DevLogo.png in Resources */,
+				E4CD86FE2E8F830E005F0A7F /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
